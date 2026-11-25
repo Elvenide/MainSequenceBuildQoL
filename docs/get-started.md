@@ -43,15 +43,15 @@ Choose either **MSCoreManager** (recommended) or **Manual UE4SS Installation** b
      ```
 2. **Install Elvenide's Build QoL**:
    - Download **$(System.Collections.Hashtable.ZipBase)-v<version>.zip** from [github.com/Elvenide/MainSequenceBuildQoL/releases](https://github.com/Elvenide/MainSequenceBuildQoL/releases).
-   - Open the zip, navigate into its `Mods\` folder, and copy the `MainSequenceBuildQoL` folder into:
+   - Open the zip, navigate into its `Mods\` folder, and copy the `ElvenidesBuildQoL` folder into:
      ```
-     Main Sequence\Windows\MainSequence\Binaries\Win64\ue4ss\Mods\MainSequenceBuildQoL\
+     Main Sequence\Windows\MainSequence\Binaries\Win64\ue4ss\Mods\ElvenidesBuildQoL\
      ```
-     *(You can safely leave `mscore.mod` inside `MainSequenceBuildQoL\`—UE4SS ignores it.)*
-   - Ensure `MainSequenceBuildQoL\enabled.txt` exists (an empty file is fine).
-   - Open `ue4ss\Mods\mods.txt` and add `MainSequenceBuildQoL : 1` **above** `Keybinds : 1`:
+     *(You can safely leave `mscore.mod` inside `ElvenidesBuildQoL\`—UE4SS ignores it.)*
+   - Ensure `ElvenidesBuildQoL\enabled.txt` exists (an empty file is fine).
+   - Open `ue4ss\Mods\mods.txt` and add `ElvenidesBuildQoL : 1` **above** `Keybinds : 1`:
      ```ini
-     MainSequenceBuildQoL : 1
+     ElvenidesBuildQoL : 1
 
      ; Built-in keybinds, do not move up!
      Keybinds : 1
@@ -61,5 +61,5 @@ Choose either **MSCoreManager** (recommended) or **Manual UE4SS Installation** b
 
 ## Uninstalling
 
-- Remove or rename `MainSequenceBuildQoL\enabled.txt` (or delete the `MainSequenceBuildQoL` folder and remove `MainSequenceBuildQoL : 1` from `mods.txt`).
+- Remove or rename `ElvenidesBuildQoL\enabled.txt` (or delete the `ElvenidesBuildQoL` folder and remove `ElvenidesBuildQoL : 1` from `mods.txt`).
 - Your saves remain completely intact with no missing-mod dependencies.
